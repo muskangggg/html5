@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Con Registration Form</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="practvideo.html">Video</a></li>  <!-- li*4>a then enter -->
+                <li><a href="form.html">Form</Form></a></li>
+                <li><a href="new.html">Anime blog</a>
+                <ul class="dropdown">
+                    <li><a href="practvideo.html">Video</a></li>  <!-- li*4>a then enter -->
+                <li>
+                    <a href="form.html">Form</Form></a>
+                <ul class="dropdown">
+                    <li><a href="practvideo.html">Video</a></li>  <!-- li*4>a then enter -->
+                <li><a href="form.html">Form</Form></a></li>
+                <li><a href="new.html">Anime blog</a></li>
+                <li><a href="table.html">Table</a></li>
+                </ul>
+                </li>
+                <li><a href="new.html">Anime blog</a></li>
+                <li><a href="table.html">Table</a></li>
+                </ul>
+                </li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h3>Welcome To Amine Con 2025</h3>
+            <form>
+                <label for="name">Your Name: <input type="text" id="name" placeholder=" Name">
+                </label>
+                <label for="Email">Your Email: <input type="email" id="email" placeholder="Email">
+                </label>
+                <label for="phone">Your Phone: <input type="text" id="phone" placeholder="Phone Number"></label>
+
+                <fieldset>
+                    <legend>
+                    Pick what type of costume u want to wear
+                    </legend>
+                    <label for="villain"><input type="radio" name="costume" id="Villain">Villain</label>
+                    <label for="Hero"><input type="radio" name="costume" id="Hero">Hero</label>
+                    <label for="Lead heroine"><input type="radio" name="costume" id="Lead Heroine">Lead Heroine</label>
+                    <label for="Side character"><input type="radio" name="costume" id="Side character">Side character</label>
+                </fieldset>
+                <fieldset>
+                    <legend>pick one or more things u want to try at the con festival</legend>
+                    <label for="food shop"><input type="checkbox" name="things" id="food shop">Food Shop</label>
+                    <label for="costume shop"><input type="checkbox" name="things" id="costume shop">Costume shop</label>
+                    <label for="anime model shop"><input type="checkbox" name="things" id="anime model shop">Anime Model Shop</label>
+                    
+                </fieldset>
+                <fieldset>
+                    <legend>special note:</legend>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </fieldset>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+
+        </section>
+    </main>
+    
+</body>
+</html>

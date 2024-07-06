@@ -1,0 +1,27 @@
+nav > ul > li{
+    display: inline;
+    margin: 10px;
+}
+nav li > a{
+     text-decoration: none; /* not show the underline */
+}
+footer{
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.footer1{
+    text-align: left;
+}
+.footer2{
+    padding-top: 20px; padding-bottom: 20px;
+    background-color: rgb(47, 118, 180);
+    color: white;
+}
+.newform{
+    background-color: rgb(100, 147, 189);
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: large;
+}

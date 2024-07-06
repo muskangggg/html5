@@ -1,0 +1,10 @@
+label{
+    display: block;
+    margin-bottom: 12px;
+}
+.header{
+    color: white;
+    text-align: center;
+    background-color: rgb(126, 184, 235);
+    padding: 10px;
+}

@@ -1,0 +1,39 @@
+nav > ul{
+    display: flex; /* flex mane shob ek line e niye ashbo */
+}
+nav li{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+}
+/* nav er bhitore hoile > sign dey nai keno  */
+ nav li a{
+    text-decoration: none;
+    /* removed the underlines */
+    color: white;
+    /* changed the color to white */
+    font: bold;
+    
+} 
+nav li:hover{
+    background-color: rgb(88, 151, 206);
+     /* mane mouse niye gele background color dekhabe */
+     padding: 5px;
+}
+/* nested menu styling */
+nav li .dropdown{
+    display: none;
+}
+nav li:hover > .dropdown{
+    /* li te hover korle immidiate dei menu ase oita dekhabe > er maddhome shob dekhabe na akshathe */
+    display: block;
+    position: absolute;
+    background-color: rgb(47, 118, 180);
+    padding-left: 10px;
+}
+.navbar{
+    background: rgb(47, 118, 180);
+    padding: 10px;
+    
+}
+

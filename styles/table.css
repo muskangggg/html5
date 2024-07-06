@@ -1,0 +1,11 @@
+h2{
+    text-decoration: underline;
+    
+}
+td , th{
+    border: 1px solid black; /*to border each data*/
+   padding: 5px 10px; /* upore niche 5 , daane baame 10*/
+}
+table{
+    border-collapse: collapse; /*to mix the boarders*/
+}
